@@ -1,0 +1,176 @@
+
+
+<!DOCTYPE html>
+<html lang="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body class="body">
+    <style>
+
+.body {
+    flex-flow: column;
+    background: rgb(255,55,0);
+background: radial-gradient(circle, rgba(255,55,0,1) 0%, rgba(0,0,0,1) 96%);
+    padding: 50px;
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+     .main {
+  text-align: center;
+  padding: 40px;
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,0.8575805322128851) 11%, rgba(246,0,0,1) 27%, rgba(0,0,0,1) 97%);
+  }
+
+  .sec_video{
+        color: aliceblue;
+        font-size: 30px;
+
+
+  }
+  
+  .sec_audio{
+       color: aliceblue;
+       font-size: 30px;
+  }
+
+  .link_youtube{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 10px solid #0000 ;
+    border-radius: 100px;
+    width: 200px;
+    height: 35px;
+    font-size: 22px;
+    border:none;
+    border-radius: 10%;
+    background-color: #000000;
+    color: #f5f5f5;
+    cursor:pointer;
+   
+
+  }
+
+  .link_email {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 10px solid #0000 ;
+    border-radius: 100px;
+    width: 200px;
+    height: 35px;
+    font-size: 22px;
+    border:none;
+    border-radius: 10%;
+    background-color: #000000;
+    color: #f5f5f5;
+    cursor:pointer;
+    
+ 
+  }
+
+  .div_nome {
+     color: aliceblue;
+
+  }
+
+  .div_email {
+    color: aliceblue;
+  }
+
+  .maps {
+     color: aliceblue;
+  }
+    </style>
+
+
+  <main class="main"> <!-- corpo da página-->         <!--VÍDEO DA MÚSICA DO MARIOS BROS TOCADA NO PIANO-->
+
+  <section class="sec_video"> <!--uma sessão da página-->
+   <h1>vídeo do Mario bros</h1> <!--título da da sessão -->
+   <video autoplay muted controls="controls" src="midias/Video_piano_marios.mp4"></video> <!-- ESTRUTURA DA REFERÊNCIA --> 
+  </section> <!-- Fechamento da sessão-->
+
+
+<br> <!--Quebra de linha-->  
+<br> <!--Quebra de linha-->
+<br> <!--Quebra de linha-->
+
+
+  <section class="sec_audio"> <!-- Uma sessõa da página-->                           <!-- ÁUDIO DA MÍSICA TEMA DO FILME INTERSTELAR  -->
+    <h1>Áudio do filme interestelar</h1> <!--Título da sessão-->
+    <audio autoplay controls="controls" src="midias/Interstellar_Main Theme.mp3" type="audio/mp3"></audio> <!--ESTRUTURA DA REFERÊNCIA-->
+  </section><!-- Fechamento da sessão da página -->
+
+  <br> <!-- Quebra de linha -->
+  <br> <!-- Quebra de linha -->
+  <br> <!-- Quebra de linha -->
+  <br> <!-- Quebra de linha -->
+
+  <section> <!--Uma sessõa da página-->
+   <a class="link_youtube" href="https://www.youtube.com/watch?v=Tu96yevGMEA">Link vídeo do youtube</a> <!-- Referência para um link de um vídeo do YouTube -->
+
+  </section> <!-- Fechamento da sessão -->
+
+
+<br> <!-- Quebra de linha -->
+<br> <!-- Quebra de linha -->
+
+  <section class="section_email"> <!-- Uma sessão da página -->
+ 
+    <a class="link_email" href=https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbthsFcXcjPLJkfMRkQqWtnpVrMxmgrgvhDlszFPZHvshLKtrJrjRlBbZWwlsTTZVvJFTp>Meu E-mail</a> <!--link de gmail-->
+
+  </section> <!-- Fechamento da sessão -->
+  
+
+  
+  <section> <!-- Uma sessão da página -->
+<br> <!-- Quebra de linha --> 
+<br> <!-- Quebra de linha -->
+<br> <!-- Quebra de linha -->
+
+    <form action="/pagina-processa-dados-do-form" method="post"> <!-- formulário -->
+
+        <div class="div_nome">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+<br>
+        <div class="div_email">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email"/>
+        </div>
+<br>     
+         
+    </form>
+    
+
+  </section>
+<br>
+<br>
+<br>
+
+<section class="maps">
+    <h1>Localização Senac Lapa Tito:</h1>
+    <map>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.122569094284!2d-46.69400408502285!3d-23.52809358469939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1683203615814!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </map>
+      
+</section>
+<br>
+<br>
+<br>
+
+
+  </main>
+
+
+
+
+
+</body>
+</html>
