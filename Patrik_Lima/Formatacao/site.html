@@ -22,16 +22,16 @@
         <fieldset>
             <legend><b>Nome do Corinthiano</b> </legend>
             <br>
-            <div>
+            <div class="inputbox">
                 <input type="text" name="Nome" id="nome" class="imputuser" required>
                 <label for="Nome">Nome</label>
             </div>
-            <div>
+            <div class="inputbox">
                 <input type="email" name="Email" id="Email" class="imputuser" required>
                 <label for="Email">Email</label>
             </div>
-            <div>
-                <input type="text" name="sim" id="Telefone" class="imputuser" required>
+            <div class="inputbox">
+                <input type="tel" name="sim" id="Telefone" class="imputuser" required>
                 <label for="Telefone">Telefone</label>
             </div>
             <p>Sexo</p>
@@ -41,6 +41,11 @@
             <label for="Masculino">Masculino</label>
             <input type="radio" id="Outro" name="genero" value="Outro" required>
             <label for="Outro">Outro</label>
+           
+            <div class="inputbox">
+             <label for="data_nascimento"><b>Ano de Nascimento</b></label>
+             <input type="date"><required>   
+            </div>
         </fieldset>
     </form>
 </div>
